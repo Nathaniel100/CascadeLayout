@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<io.ginger.cascadelayout.CascadeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:horizontal_spacing="30dp"
+    app:vertical_spacing="20dp"
+    tools:context="io.ginger.cascadelayout.MainActivity"
+    >
+
+  <View
+      android:layout_width="100dp"
+      android:layout_height="150dp"
+      android:background="#FF0000"
+      app:layout_vertical_spacing="100dp"
+      />
+  <View
+      android:layout_width="100dp"
+      android:layout_height="150dp"
+      android:background="#00FF00"
+      />
+  <View
+      android:layout_width="100dp"
+      android:layout_height="150dp"
+      android:background="#0000FF"
+      />
+
+</io.ginger.cascadelayout.CascadeLayout>
